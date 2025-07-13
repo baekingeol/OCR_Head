@@ -37,7 +37,9 @@ python step1_passkey.py
 
 ## OCR-Head와 Retrieval Head 
 Below is the code for locating the OCR head.
+
 Because we provide the pre-computed OCR scores and retrieval scores used in our experiments, you can skip ahead to Experiment if you only need the quick results.
+
 Our experiments employ the Qwen2-VL and InternVL2 models.
 
 ```bash
