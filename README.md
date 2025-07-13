@@ -24,10 +24,8 @@ bash dataset/donwload.sh
 ```
 
 We used the DocVQA and Multi-Doc VQA datasets released by lmms-lab.
-- llms-lab/DocVQA
-https://huggingface.co/datasets/lmms-lab/DocVQA
-- llms-lab/MP-DocVQA
-https://huggingface.co/datasets/lmms-lab/MP-DocVQA
+- [llms-lab/DocVQA](https://huggingface.co/datasets/lmms-lab/DocVQA)
+- [llms-lab/MP-DocVQA](https://huggingface.co/datasets/lmms-lab/MP-DocVQA)
 
 ## Dataset Generation
 ```bash
