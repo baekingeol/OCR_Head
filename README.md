@@ -18,7 +18,7 @@ install 내용 적어야 함.
 ```
 
 ## Datasets
-You can download datasets (NQ, and HotpotQA) from
+You can download datasets (NQ, and HotpotQA)
 ```bash
 bash dataset/donwload.sh
 ```
@@ -107,7 +107,6 @@ Below is the code for the Sink Token experiments.
 for task in text image; do
     for dataset in doc mdocs; do
         
-            
         cmd="python exp_sink.py --datasets $dataset --task $task --tmp 1 --model_id OpenGVLab/InternVL2-8B --num_of_masking_head 2 --do_masking --unmasking --beta 0.4"
         echo "$cmd"
         eval "$cmd"
@@ -115,6 +114,7 @@ for task in text image; do
         cmd="python exp_sink.py --datasets $dataset --task $task --tmp 1 --model_id Qwen/Qwen2-VL-7B-Instruct --num_of_masking_head 2 --do_masking --unmasking --beta 0.4"
         echo "$cmd"
         eval "$cmd"
+
     done
 done
 ```
