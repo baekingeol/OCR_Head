@@ -29,7 +29,7 @@ https://huggingface.co/datasets/lmms-lab/DocVQA
 - llms-lab/MP-DocVQA
 https://huggingface.co/datasets/lmms-lab/MP-DocVQA
 
-## 합성 데이터셋 생성
+## Dataset Generation
 ```bash
 python step1_niah.py
 python step1_passkey.py
@@ -115,7 +115,6 @@ for task in text image; do
         eval "$cmd"
     done
 done
-
 ```
 
 ## Citation
