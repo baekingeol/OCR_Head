@@ -14,7 +14,7 @@ The first step is to create a conda environment as follows:
 ```bash
 conda create -n ocr python=3.10 ipykernel
 conda activate ocr
-install 내용 적어야 함.
+pip install -r requirements.txt # Update coming soon.
 ```
 
 ## Datasets
